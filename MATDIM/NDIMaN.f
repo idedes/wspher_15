@@ -1,0 +1,3 @@
+
+      PARAMETER
+     *          (NDIMaN=20)

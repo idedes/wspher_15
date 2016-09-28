@@ -1,0 +1,3 @@
+
+      PARAMETER
+     *          (NDMAIN=20)

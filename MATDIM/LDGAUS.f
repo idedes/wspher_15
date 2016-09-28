@@ -1,0 +1,3 @@
+
+      PARAMETER
+     *          (LDGAUS=80)

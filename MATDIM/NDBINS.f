@@ -1,0 +1,3 @@
+
+      PARAMETER
+     *          (NDBINS=100)

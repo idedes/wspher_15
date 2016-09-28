@@ -1,5 +1,6 @@
 .DS_Store
 *.o
+*~
 wspher15_exe
 DensitCurves
 EnergyLevels
@@ -8,4 +9,5 @@ Results
 fort.*
 *.out
 *.log
+wspher15.tar.gz
 

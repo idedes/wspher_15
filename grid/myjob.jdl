@@ -1,0 +1,7 @@
+Executable    = "/bin/sh";
+Arguments     = "myjob.sh";
+Stdoutput     = "message.txt";
+StdError      = "stderror";
+InputSandbox  = {"myjob.sh","wspher15.tar.gz"};
+OutputSandbox = {"message.txt","stderror","output.tar.gz"};
+Requirements=other.GlueCEUniqueID=="sbgce1.in2p3.fr:8443/cream-pbs-vo.sbg.in2p3.fr";

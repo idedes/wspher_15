@@ -1,0 +1,115 @@
+ arXiv:nucl-th/0003019 [ps, pdf, other]
+    Title: Odd-even staggering of binding energies as a consequence of pairing and mean-field effects
+    Authors: J. Dobaczewski, P. Magierski, W. Nazarewicz, W. Satula, Z. Szymanski
+    Comments: 14 RevTeX pages, 13 EPS figures, submitted to Physical Review C
+    Journal-ref: Phys.Rev. C63 (2001) 024308
+    Subjects: Nuclear Theory (nucl-th)
+9. arXiv:nucl-th/9804060 [ps, pdf, other]
+    Title: Odd-Even Staggering of Nuclear Masses: Pairing or Shape Effect?
+    Authors: W. Satu\u0142a, J. Dobaczewski, W. Nazarewicz
+    Journal-ref: Phys.Rev.Lett.81:3599-3602,1998
+    Subjects: Nuclear Theory (nucl-th)
+
+Neutron Delta^3 filters
+
+
+Z=8  N= 9 D3=1.9505 <<< == for N=8  16O (neutrons)
+Z=8  N=11 D3=1.8261
+Z=8  N=13 D3=1.5211
+
+Z=20 N=21 D3=1.5590 <<< == for N=20 40Ca (neutrons)
+Z=20 N=23 D3=1.5995
+Z=20 N=25 D3=1.4895 
+Z=20 N=27 D3=1.3351
+Z=20 N=29 D3=0.6031 <<< == for N=28 48Ca (neutrons)
+Z=20 N=31 D3=0.1538
+
+Z=28 N=27 D3=1.2230
+Z=28 N=29 D3=0.9859 <<< == for N=28 56Ni (neutrons)
+Z=28 N=31 D3=1.1944
+Z=28 N=33 D3=1.3886 
+Z=28 N=35 D3=1.4101 
+Z=28 N=37 D3=1.4397   
+Z=28 N=39 D3=1.0149   
+Z=28 N=41 D3=1.1079 <<< == for N=40 64Ni (neutrons)
+Z=28 N=43 D3=1.1923
+
+Z=40 N=41 D3=0.9289 <<< == for N=40 80Zr (neutrons)
+Z=40 N=43 D3=1.3823 
+Z=40 N=45 D3=1.4939 
+Z=40 N=47 D3=1.3666 
+Z=40 N=49 D3=1.3264 
+Z=40 N=51 D3=0.7201 <<< == for N=50 90Zr (neutrons)
+Z=40 N=53 D3=0.7430 
+Z=40 N=55 D3=0.6958
+Z=40 N=57 D3=0.4096 
+
+Z=50 N=83 D3=0.6614 <<< == for N=82 132Sn (neutrons)
+
+Z=64 N=79 D3=1.0144
+Z=64 N=81 D3=0.7821
+Z=64 N=83 D3=0.8215 <<< == for N=82 146Gd (neutrons)
+Z=64 N=85 D3=0.8885
+Z=64 N=87 D3=1.0457
+
+
+Z=82 N=121 D3=0.7352
+Z=82 N=123 D3=0.6783
+Z=82 N=125 D3=0.3150
+Z=82 N=127 D3=0.6244 <<< == for N=126 208Pb (neutrons)
+Z=82 N=129 D3=0.6531
+Z=82 N=131 D3=0.6122
+
+
+
+Proton Delta^3 filters
+ 
+N= 8 Z= 7 D3=0.9600
+N= 8 Z= 9 D3=1.6616 <<< == for Z=8  16O  (protons)
+N= 8 Z=11 D3=1.4831
+N= 8 Z=13 D3=1.2519
+
+N=20 Z=17 D3=0.9278
+N=20 Z=19 D3=0.9734
+N=20 Z=21 D3=1.3415 <<< == for Z=20 40Ca (protons) 
+
+N=28 Z=17 D3=1.0555
+N=28 Z=19 D3=1.2709
+N=28 Z=21 D3=1.2680 <<< == for Z=20 48Ca (protons)
+N=28 Z=23 D3=1.2204
+N=28 Z=25 D3=1.1468
+N=28 Z=27 D3=1.0505
+N=28 Z=29 D3=0.7911 <<< == for Z=26 56Ni (protons) 
+N=28 Z=31 D3=0.8909 
+
+N=40 Z=25 D3=0.6921
+N=40 Z=27 D3=1.4576
+N=40 Z=29 D3=0.7780 <<< == for Z=28  64Ni (protons)
+N=40 Z=31 D3=0.9350 
+
+N=50 Z=37 D3=0.9959
+N=50 Z=39 D3=0.6427
+N=50 Z=41 D3=1.1537 <<< == for Z=40  90Zr (protons)
+N=50 Z=43 D3=1.0839
+N=50 Z=45 D3=1.0588
+
+N=82 Z=49 D3=0.9250
+N=82 Z=51 D3=0.6143 <<< == for Z=50  132Sn (protons)
+N=82 Z=53 D3=0.7026
+N=82 Z=55 D3=0.7978
+
+N=82 Z=61 D3=0.9978
+N=82 Z=63 D3=1.0342
+N=82 Z=65 D3=1.2243 <<< == for Z=64  146Gd (protons)
+N=82 Z=67 D3=1.1578
+N=82 Z=69 D3=1.2875
+
+N=126 Z=81 D3=0.3134
+N=126 Z=83 D3=0.5924 <<< == for Z=82  208Pb (protons)
+N=126 Z=85 D3=0.6590
+N=126 Z=87 D3=0.7297
+
+
+
+
+

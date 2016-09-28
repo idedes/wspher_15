@@ -1,4 +1,11 @@
 .DS_Store
 *.o
 wspher15_exe
+DensitCurves
+EnergyLevels
+LogFiles
+Results
+fort.*
+*.out
+*.log
 

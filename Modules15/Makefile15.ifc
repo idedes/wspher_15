@@ -1,0 +1,40 @@
+DEBUG=
+
+COMPILER=ifort 
+OPTS=-O3 -r8 -warn nousage 
+
+all: wspher15_exe
+
+wspher15_exe: wspher01_main_p_15.o \
+              wspher02_nameli_15.o \
+              wspher03_readex_15.o \
+              wspher04_gaussl_15.o \
+              wspher05_hamilt_15.o \
+              wspher06_potnts_15.o \
+              wspher07_radius_15.o \
+              wspher08_diamat_15.o \
+              wspher09_pairin_15.o \
+              wspher10_jacmat_15.o \
+              wspher11_minimi_15.o \
+              wspher12_minpac_15.o \
+              wspher13_lapac1_15.o \
+              wspher14_lapac2_15.o
+
+	$(COMPILER) $(OPTS) $(DEBUG) -o $@ wspher01_main_p_15.o \
+               wspher02_nameli_15.o \
+               wspher03_readex_15.o \
+               wspher04_gaussl_15.o \
+               wspher05_hamilt_15.o \
+               wspher06_potnts_15.o \
+               wspher07_radius_15.o \
+               wspher08_diamat_15.o \
+               wspher09_pairin_15.o \
+               wspher10_jacmat_15.o \
+               wspher11_minimi_15.o \
+               wspher12_minpac_15.o \
+               wspher13_lapac1_15.o \
+               wspher14_lapac2_15.o ; cp $@ ..
+ 
+%.o : %.f
+	$(COMPILER) $(OPTS) $(DEBUG) -c $< 
+

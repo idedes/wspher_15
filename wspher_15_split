@@ -1,0 +1,37 @@
+#!/bin/bash
+
+
+FICHIER=wspher_15.f
+
+titi=$(cat $FICHIER | grep -n '\$ident@string\$' | awk -F':' '{print $1}')
+set $titi
+for i in $titi;
+do
+NAME=Modules15/$(sed -n -e "$i,$i p" $FICHIER | awk '{print $5}').temp
+if [ -z $2 ]
+then
+tutu=$(cat $FICHIER | wc | awk '{print $1}')
+else
+tutu=$(($2-1))
+fi
+
+sed -n -e "$1,$tutu p" $FICHIER > $NAME
+shift
+done
+
+for i in Modules15/wsp*.f.temp;
+do
+if [ -e ${i/.temp/} ];
+then
+if [ $(diff ${i/.temp/} $i | wc | awk '{print $1}') != 0 ] ;
+then
+cp $i ${i/.temp/}
+echo update ${i/.temp/}
+fi
+else
+cp $i ${i/.temp/}
+echo create ${i/.temp/}
+fi
+done
+
+rm Modules15/wsp*.f.temp
